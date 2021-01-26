@@ -1,0 +1,93 @@
+.issueLine{
+    font-size: small;
+    font-style: italic;
+    
+    
+}
+
+.topLine {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 1px;
+ 
+  }
+  
+  .topTag {
+      text-align: center;
+      font-size: small;
+      
+  }
+
+  .newsText{
+      font-size: small;
+      overflow-x:auto;
+      text-align: justify;
+    
+  }
+
+  .leafLet{
+      position:relative;
+    width: 45%;
+    clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
+    background-color: brown;
+    font-size: xx-small;
+    color: white;
+  }
+
+  .leafLet1{
+    position:relative;
+    top: 5px;
+    width: 45%;
+    clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
+    background-color: brown;
+    font-size: xx-small;
+    color: white;
+}
+
+  .pic1{
+      height: 100%;
+      width: 100%;
+      
+  }
+  .pic2{
+
+    height:25%;
+    width: 100%;
+  
+  }
+
+.quote{
+    font-size: large;
+    color: maroon;
+    text-align: center;
+}
+
+
+a:hover{
+        background-color:lightblue;
+
+}
+
+body{
+    margin: 40px;
+}
+
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+
+ .pic6{
+     height: 100%;
+     width: 100%;
+ } 
+
+ .pic5{
+ 
+     height: 100%;
+ }
+
+ .pic7{
+     height: 100%;
+
+ }
